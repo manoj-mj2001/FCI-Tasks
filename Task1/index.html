@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MJ's Creative Personal Page</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to MJ's Creative Space</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Hello! I'm Mr. MANOJ, a creative web developer passionate about building
+        engaging and responsive websites. I love crafting beautiful digital
+        experiences.
+      </p>
+      <img src="profile-image.png" alt="MJ's Profile Picture" width="200" />
+    </section>
+
+    <section id="projects">
+      <h2>My Projects</h2>
+      <table>
+        <tr>
+          <th>Project Name</th>
+          <th>Description</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>Pizza Shop Website</td>
+          <td>A vibrant website showcasing pizza menus and promotions.</td>
+          <td>2024</td>
+        </tr>
+        <tr>
+          <td>Hotel Management</td>
+          <td>A system for managing hotel bookings with an elegant UI.</td>
+          <td>2024</td>
+        </tr>
+      </table>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form action="#" method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 MJ's Creative Space</p>
+    </footer>
+  </body>
+</html>
